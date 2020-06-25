@@ -35,3 +35,11 @@ git add -A
 git commit -m 'test commit'
 git push -u origin master
 echo "Done push"
+echo "Done"
+vi filename1.sh
+git add filename1.sh
+git add -A
+git commit -m 'test commit'
+git push -u origin master
+echo "Done push"
+echo "Done"
