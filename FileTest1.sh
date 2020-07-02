@@ -26,12 +26,3 @@ resources="https://github.com/nguyenvinhson/demo-create-project.git"
 foldertemp=${resources##*/}
 project=${foldertemp%.*}
 echo "$project"
-cd $folder
-cd $project
-echo "create file"
-vi filename.sh
-git add filename.sh
-git add -A
-git commit -m 'test commit'
-git push -u origin master
-echo "Done push"
