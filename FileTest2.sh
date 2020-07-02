@@ -30,8 +30,3 @@ cd $folder
 cd $project
 echo "create file"
 vi filename.sh
-git add filename.sh
-git add -A
-git commit -m 'test commit'
-git push -u origin master
-echo "Done push"
