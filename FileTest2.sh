@@ -11,7 +11,6 @@ printf "Gitsource: "
 read -r gitsource
 git clone "$gitsource"
 unset gitsource
-echo "Done!"
 echo "*******************"
 foldercopy="$HOME"/mydir/copy
 if [ ! -d "$foldercopy" ]
@@ -34,4 +33,3 @@ git add filename.sh
 git add -A
 git commit -m 'test commit'
 git push -u origin master
-echo "Done push"
