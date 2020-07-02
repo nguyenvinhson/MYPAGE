@@ -11,3 +11,8 @@ repository="https://github.com/nguyenvinhson/demo-create-project.git"
 localFolder="C:\\Users\\nguyenvinhson\\Desktop\\Nhap"
 
 git clone "$repository $localFolder"
+git clone "$repository $localFolder"
+git clone "$repository $localFolder"
+git clone "$repository $localFolder"
+git clone "$repository $localFolder"
+git clone "$repository $localFolder"
