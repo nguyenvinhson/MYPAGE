@@ -33,3 +33,8 @@ resources="https://github.com/nguyenvinhson/demo-create-project.git"
 foldertemp=${resources##*/}
 project=${foldertemp%.*}
 echo "$project"
+echo "Done copy!"
+resources="https://github.com/nguyenvinhson/demo-create-project.git"
+foldertemp=${resources##*/}
+project=${foldertemp%.*}
+echo "$project"
